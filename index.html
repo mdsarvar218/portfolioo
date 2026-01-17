@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvar Md - Generative AI Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sarvar Md</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">☀️</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm Sarvar Md</h1>
+                <p class="role">Generative AI Developer | Python Developer</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#" class="btn secondary" id="download-resume">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p><strong>Specialization:</strong> AI-powered applications, Medical AI systems, OCR, LLMs, Offline AI using Ollama</p>
+                <p><strong>Passion:</strong> Designing intelligent, scalable, and user-friendly AI solutions that solve real-world problems.</p>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Technology (B.Tech) – 4th Year</h3>
+                            <p>Currently Pursuing, Year of Passing: 2026</p>
+                            <ul>
+                                <li>Artificial Intelligence</li>
+                                <li>Machine Learning</li>
+                                <li>Data Structures & Algorithms</li>
+                                <li>Python Programming</li>
+                                <li>Database Management Systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming</h3>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI & ML</h3>
+                        <div class="skill-item">
+                            <span>Generative AI</span>
+                            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Large Language Models (LLMs)</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Prompt Engineering</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Tools</h3>
+                        <div class="skill-item">
+                            <span>Streamlit</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Ollama (Offline LLMs)</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>ChromaDB</span>
+                            <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Document Intelligence</h3>
+                        <div class="skill-item">
+                            <span>OCR (Tesseract)</span>
+                            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PDF Processing (pdfplumber)</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Other</h3>
+                        <div class="skill-item">
+                            <span>API Integration</span>
+                            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Vector Databases</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>AI Chat Interfaces</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card" data-project="ai-doctor">
+                        <h3>AI Doctor Assistant (Capstone Project)</h3>
+                        <ul>
+                            <li>Upload medical reports, X-rays, ECGs, and scan documents</li>
+                            <li>OCR-based text extraction and medical document understanding</li>
+                            <li>Store embeddings using ChromaDB</li>
+                            <li>Offline AI-powered explanations using Ollama</li>
+                            <li>Disease insights, exercises, do’s & don’ts</li>
+                            <li>Downloadable AI-generated medical reports (PDF)</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>Ollama</span>
+                            <span>ChromaDB</span>
+                            <span>OCR</span>
+                        </div>
+                        <button class="btn primary view-project-btn">Learn More</button>
+                    </div>
+                    <div class="project-card" data-project="report-analyzer">
+                        <h3>Combined Report Analyzer</h3>
+                        <ul>
+                            <li>Multi-PDF upload support</li>
+                            <li>Extracts and summarizes medical data</li>
+                            <li>Handles corrupted or invalid PDFs gracefully</li>
+                            <li>AI-powered structured insights</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>pdfplumber</span>
+                            <span>AI</span>
+                        </div>
+                        <button class="btn primary view-project-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out for collaborations or inquiries!</p>
+                <div class="contact-links">
+                    <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://github.com/yourusername"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/yourusername"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sarvar Md. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3 id="modal-title"></h3>
+            <div id="modal-description"></div>
+            <div id="modal-tech-stack" class="tech-stack"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
